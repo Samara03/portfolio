@@ -9,7 +9,10 @@ body{
 }
 
 .contenedorfoto{
-    width: 200px;
+    width: 300px;
+    margin-top: 30px;
+    margin-right: 30px;
+    
 }
 
 .contenedorfoto img{
@@ -27,7 +30,75 @@ body{
 }
 
 .contenedorAcercaDeMi{
+
+}
+
+.contenedorAcercaDeMi div {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around
+    margin-top: 30px;
+}
+
+.tituloDatos{
+    padding: 50px;
+    border: black solid;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px
+}
+
+.Datos{
+    margin-top: 30px;
+}
+.Datos li{
+    margin-top: 20px
+}
+
+.TituloAcercaDeMi{
+    font-size: 2em
+}
+
+.TituloProyecto{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 2em
+}
+
+.ContenedorProyectoeImagen{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 70px
+}
+
+.ImagenProyecto img{
+    width: 100%
+
+}
+
+.ImagenProyecto{
+    width: 500px
+}
+
+.TituloFAS{
+    margin-left: 50px;
+    font-size: 2em;
+    margin-bottom: 30px
+}
+
+.Listadecaracteristicas li{
+    display: flex
+}
+
+.divImagenCaracteristicas img{
+    width: 100%;
+}
+
+.divImagenCaracteristicas{
+    width: 400px;
+}
+
+.TituloCaracteristicas{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    font-weight: bold
+
 }
