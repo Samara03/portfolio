@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+
+*{
+    font-family: 'Karla', sans-serif;
+}
+
+body{
+    background-color: #FEE659
+}
+
+.contenedorfoto{
+    width: 200px;
+}
+
+.contenedorfoto img{
+    width: 100%;
+}
+
+.imageneinformacion{
+    display: flex;
+    justify-content: space-between
+}
+
+.titulosdatos{
+    font-size: 2em;
+    font-weight: bold
+}
+
+.contenedorAcercaDeMi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
